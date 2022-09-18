@@ -1,0 +1,35 @@
+# desafio 079
+
+numero = list()
+while True:
+  n = int(input('digite um valor:'))
+  if n not in numero:
+    numero.append(n)
+    print('valor adicionado com sucesso')
+  else:
+      print('valores duplicado não vou adicionar')
+  r = str(input('Que continuar S/N?'))
+  if r == 'n':
+     break
+print('os numeros digitados{} foram'.format(numero))
+numero.sort()
+print(''*30)   
+  
+    # desafio 079
+
+numero = list()
+while True:
+  n = int(input('digite um valor:'))
+  if n not in numero:
+    numero.append(n)
+    print('valor adicionado com sucesso')
+  else:
+      print('valores duplicado não vou adicionar')
+  r = str(input('Que continuar S/N?'))
+  if r == 'n':
+     break
+print('os numeros digitados{} foram'.format(numero))
+numero.sort()
+print(''*30)   
+  
+    
